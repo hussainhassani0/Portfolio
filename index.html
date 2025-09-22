@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Hussain Hassani</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#certificates" class="nav__link">Certificates</a></li>
+                        <li class="nav__item"><a href="#work-projects" class="nav__link">Work Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__btns">
+                    <i class='bx bx-moon change-theme' id="test-theme-button" onclick="document.body.classList.toggle('dark-theme'); this.classList.toggle('bx-moon'); this.classList.toggle('bx-sun');" style="cursor: pointer; font-size: 1.25rem; color: var(--title-color); margin-right: 1rem;"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-menu'></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Hussain Hassani</span></h1>
+                    <div class="home__subtitle">
+                        <span class="home__subtitle-prefix">I'm a</span>
+                        <span class="typing-text" id="typing-text"></span>
+                        <span class="typing-cursor">|</span>
+                    </div>
+
+                    <div class="home__buttons">
+                        <a href="mailto:01.hussain.hassani@gmail.com" class="button">Contact</a>
+                        <a href="assets/cv/Hussain_Hassani_CV.pdf" class="button button--download" download>Download CV</a>
+                    </div>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/hussainhassani01?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://x.com/HussainHassani0?t=vCSd6sQDoWRu4gV2eOrqcA&s=09" class="home__social-icon"><i class='bx bx-x'></i></a>
+                    <a href="https://github.com/hussainhassani0" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Hussain Agha Hassani</h2>
+                        <p class="about__text">A motivated student with a strong interest in software engineering and cyber security. I completed my high school diploma at Talash High School in 2019 and later pursued undergraduate studies in Software Engineering at the American University of Afghanistan. Alongside my academic journey, I have earned several international certifications, including Information Security and Digital Forensics from the Open University (UK), AI Prompts from the Dubai Future Foundation, and Cyber Security Fundamentals from Cisco Academy.</p>
+                        <p class="about__text">I am passionate about technology, problem-solving, and digital security. My goal is to continue my bachelor's degree in Russia through the Open Doors Scholarship Program and contribute to global advancements in software development and IT security.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== EDUCATION =====-->
+            <section class="education section" id="education">
+                <h2 class="section-title">Education</h2>
+
+                <div class="education__container bd-grid">
+                    <div class="education__item">
+                        <div class="education__header">
+                            <h3 class="education__institution">TALASH HIGH SCHOOL</h3>
+                            <span class="education__date">2007 - 2019</span>
+                        </div>
+                        <div class="education__details">
+                            <p class="education__degree">High School Diploma</p>
+                            <p class="education__grade">Percentage: 94.57/100</p>
+                        </div>
+                    </div>
+
+                    <div class="education__item">
+                        <div class="education__header">
+                            <h3 class="education__institution">AMERICAN UNIVERSITY OF AFGHANISTAN</h3>
+                            <span class="education__date">2020 - incomplete</span>
+                        </div>
+                        <div class="education__details">
+                            <p class="education__degree">Bachelor Software Engineering Cyber Security</p>
+                        </div>
+                    </div>
+
+                    <div class="education__item">
+                        <div class="education__header">
+                            <h3 class="education__institution">GOOGLE INC</h3>
+                            <span class="education__date">2023 - 2024</span>
+                        </div>
+                        <div class="education__details">
+                            <p class="education__degree">Certified Google Analytics</p>
+                            <p class="education__degree">Certified Google Ads Apps</p>
+                        </div>
+                    </div>
+
+                    <div class="education__item">
+                        <div class="education__header">
+                            <h3 class="education__institution">THE OPEN UNIVERSITY UK</h3>
+                            <span class="education__date">2024</span>
+                        </div>
+                        <div class="education__details">
+                            <p class="education__degree">Certified Information Security</p>
+                            <p class="education__degree">Certified Digital Forensics</p>
+                        </div>
+                    </div>
+
+                    <div class="education__item">
+                        <div class="education__header">
+                            <h3 class="education__institution">DUBAI FUTURE FOUNDATION</h3>
+                            <span class="education__date">2024</span>
+                        </div>
+                        <div class="education__details">
+                            <p class="education__degree">Certified 1 Million Prompts AI</p>
+                        </div>
+                    </div>
+
+                    <div class="education__item">
+                        <div class="education__header">
+                            <h3 class="education__institution">CISCO LEARNING ACADEMY</h3>
+                            <span class="education__date">2025</span>
+                        </div>
+                        <div class="education__details">
+                            <p class="education__degree">Introduction to Cyber Security</p>
+                        </div>
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">I possess a diverse range of technical and soft skills that enable me to excel in software engineering, cyber security, and collaborative environments.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        
+                        <h3 class="skills__subtitle">Additional Skills</h3>
+                        <div class="skills__list">
+                            <div class="skills__item">
+                                <i class='bx bxl-microsoft skills__check'></i>
+                                <span>Microsoft Office</span>
+                            </div>
+                            <div class="skills__item">
+                                <i class='bx bxs-paint skills__check'></i>
+                                <span>Graphic Design</span>
+                            </div>
+                            <div class="skills__item">
+                                <i class='bx bx-code-alt skills__check'></i>
+                                <span>Programming</span>
+                            </div>
+                            <div class="skills__item">
+                                <i class='bx bx-wrench skills__check'></i>
+                                <span>Troubleshooting</span>
+                            </div>
+                            <div class="skills__item">
+                                <i class='bx bx-camera skills__check'></i>
+                                <span>Photography</span>
+                            </div>
+                            <div class="skills__item">
+                                <i class='bx bx-slideshow skills__check'></i>
+                                <span>Presentation Skills</span>
+                            </div>
+                            <div class="skills__item">
+                                <i class='bx bx-crown skills__check'></i>
+                                <span>Leadership</span>
+                            </div>
+                            <div class="skills__item">
+                                <i class='bx bx-brain skills__check'></i>
+                                <span>Problem Solving</span>
+                            </div>
+                            <div class="skills__item">
+                                <i class='bx bx-palette skills__check'></i>
+                                <span>Creativity</span>
+                            </div>
+                        </div>
+                        
+                        <h3 class="skills__subtitle">Languages</h3>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-world skills__icon'></i>
+                                <span class="skills__name">English</span>
+                            </div>
+                            <div class="skills__bar skills__english">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-world skills__icon'></i>
+                                <span class="skills__name">Persian</span>
+                            </div>
+                            <div class="skills__bar skills__persian">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">100%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-world skills__icon'></i>
+                                <span class="skills__name">Pashto</span>
+                            </div>
+                            <div class="skills__bar skills__pashto">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work0.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CERTIFICATES =====-->
+            <section class="certificates section" id="certificates">
+                <h2 class="section-title">Certificates</h2>
+
+                <div class="certificates__container bd-grid">
+                    <a href="" class="certificates__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </a>
+                    <a href="" class="certificates__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </a>
+                    <a href="" class="certificates__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </a>
+                    <a href="" class="certificates__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </a>
+                    <a href="" class="certificates__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </a>
+                    <a href="" class="certificates__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== WORK PROJECTS =====-->
+            <section class="work-projects section" id="work-projects">
+                <h2 class="section-title">Work Projects</h2>
+
+                <div class="work-projects__container bd-grid">
+                    <div class="work-projects__item">
+                        <div class="work-projects__img">
+                            <img src="assets/img/project1.jpg" alt="Tic-Tac-Toe">
+                        </div>
+                        <div class="work-projects__content">
+                            <h3 class="work-projects__title">Tic-Tac-Toe</h3>
+                            <p class="work-projects__description">I created a classic Tic-Tac-Toe game where two players take turns marking Xs and Os on a 3x3 grid. The game includes win detection, draw conditions, and a simple, user-friendly design for quick and fun play.</p>
+                            <div class="work-projects__links">
+                                <a href="https://hh-tic-tac-toe.netlify.app/" class="work-projects__link" target="_blank">Live Demo</a>
+                                <a href="https://github.com/hussainhassani0/tic-tac-toe" class="work-projects__link" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work-projects__item">
+                        <div class="work-projects__img">
+                            <img src="assets/img/project2.jpg" alt="Julie AI">
+                        </div>
+                        <div class="work-projects__content">
+                            <h3 class="work-projects__title">Julie AI</h3>
+                            <p class="work-projects__description">Julie AI is an intelligent chatbot similar to ChatGPT and other AI assistants. It operates using the Gemini API and is designed to answer your questions with speed and accuracy. Whether you're seeking information, assistance, or just a smart conversation.</p>
+                            <div class="work-projects__links">
+                                <a href="https://ai.studio/apps/drive/1OMU4ZrKJ3AkogcBjAItJDTGVEiebVYlk" class="work-projects__link" target="_blank">Live Demo</a>
+                                <a href="https://github.com/hussainhassani0/Julie-ai" class="work-projects__link" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work-projects__item">
+                        <div class="work-projects__img">
+                            <img src="assets/img/project3.jpg" alt="Project 3">
+                        </div>
+                        <div class="work-projects__content">
+                            <h3 class="work-projects__title">Project 3</h3>
+                            <p class="work-projects__description">Description of your third project. Explain what it does and the technologies used.</p>
+                            <div class="work-projects__links">
+                                <a href="#" class="work-projects__link" target="_blank">Live Demo</a>
+                                <a href="#" class="work-projects__link" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Get in Touch</h3>
+                        <p class="contact__text">Feel free to reach out to me for any opportunities or collaborations.</p>
+                        
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">
+                                    <i class='bx bx-phone contact__icon'></i>
+                                    <i class='bx bxl-whatsapp contact__icon'></i>
+                                    Phone & WhatsApp
+                                </h3>
+                                <a href="tel:+989361681758" class="contact__description contact__phone">+989361681758</a>
+                                <a href="https://wa.me/989361681758" class="contact__description contact__whatsapp">WhatsApp</a>
+                            </div>
+                            
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">
+                                    <i class='bx bx-envelope contact__icon'></i>
+                                    Email
+                                </h3>
+                                <span class="contact__description">01.hussain.hassani@gmail.com</span>
+                            </div>
+                            
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">
+                                    <i class='bx bx-map contact__icon'></i>
+                                    Location
+                                </h3>
+                                <span class="contact__description">Afghanistan Kabul</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="https://formspree.io/f/mgvlgbnp" method="POST" class="contact__form">
+                        <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                        <input type="email" name="email" placeholder="Email" class="contact__input" required>
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input" placeholder="Message" required></textarea>
+                        <input type="submit" value="Send Message" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Hussain Hassani</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Kabul Code Team. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        
+        <!--===== DARK MODE TEST SCRIPT =====-->
+        <script>
+            console.log('Dark mode test script loaded');
+            
+            // Test function
+            function testDarkMode() {
+                console.log('Testing dark mode...');
+                document.body.classList.toggle('dark-theme');
+                console.log('Body classes:', document.body.className);
+            }
+            
+            // Make it globally available
+            window.testDarkMode = testDarkMode;
+            
+            // Auto-test after 2 seconds
+            setTimeout(() => {
+                console.log('Auto-testing dark mode in 2 seconds...');
+            }, 2000);
+        </script>
+    </body>
+</html>
